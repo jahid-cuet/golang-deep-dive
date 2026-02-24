@@ -47,4 +47,17 @@ fmt.Println(a)
   default:
     fmt.Println("It's a regular day.")
   }
+
+
+  //functions
+
+
+  x:= 5
+  y:= 10
+  sum := add(x, y)
+  fmt.Println("The sum is:", sum)
+
 }
+  func add(a int, b int) int{
+    return a+b
+  }
